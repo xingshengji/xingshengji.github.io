@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xingshengji.coding.me</id>
     <title>兴盛季节</title>
-    <updated>2019-06-06T02:38:14.124Z</updated>
+    <updated>2019-06-06T02:41:48.842Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xingshengji.coding.me"/>
     <link rel="self" href="https://xingshengji.coding.me/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://xingshengji.coding.me/images/avatar.png</logo>
     <icon>https://xingshengji.coding.me/favicon.ico</icon>
     <rights>All rights reserved 2019, 兴盛季节</rights>
+    <entry>
+        <title type="html"><![CDATA[有人等，有人不等]]></title>
+        <id>https://xingshengji.coding.me/post/you-ren-deng-you-ren-bu-deng</id>
+        <link href="https://xingshengji.coding.me/post/you-ren-deng-you-ren-bu-deng">
+        </link>
+        <updated>2019-06-06T02:40:53.000Z</updated>
+        <content type="html"><![CDATA[<p>待更新</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[十二月]]></title>
         <id>https://xingshengji.coding.me/post/shi-er-yue</id>
