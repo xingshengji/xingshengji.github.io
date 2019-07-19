@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xingshengji.github.io</id>
     <title>兴盛季节</title>
-    <updated>2019-07-19T01:33:33.570Z</updated>
+    <updated>2019-07-19T01:34:27.922Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xingshengji.github.io"/>
     <link rel="self" href="https://xingshengji.github.io/atom.xml"/>
@@ -10,6 +10,24 @@
     <logo>https://xingshengji.github.io/images/avatar.png</logo>
     <icon>https://xingshengji.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 兴盛季节</rights>
+    <entry>
+        <title type="html"><![CDATA[12]]></title>
+        <id>https://xingshengji.github.io/post/12</id>
+        <link href="https://xingshengji.github.io/post/12">
+        </link>
+        <updated>2019-07-19T01:33:53.000Z</updated>
+        <content type="html"><![CDATA[<p>12333</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[12122]]></title>
+        <id>https://xingshengji.github.io/post/12122</id>
+        <link href="https://xingshengji.github.io/post/12122">
+        </link>
+        <updated>2019-07-19T01:33:53.000Z</updated>
+        <content type="html"><![CDATA[<p>12333</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[很多想法]]></title>
         <id>https://xingshengji.github.io/post/hen-duo-xiang-fa</id>
