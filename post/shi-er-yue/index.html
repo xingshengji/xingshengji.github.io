@@ -1,99 +1,100 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" >
+
 <title>十二月 | 兴盛季节</title>
-<link rel="shortcut icon" href="https://xingshengji.github.io/favicon.ico?v=1564535921695">
+<meta name="description" content="为文艺复兴而生">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://xingshengji.github.io/favicon.ico?v=1564536242955">
 <link rel="stylesheet" href="https://xingshengji.github.io/styles/main.css">
 
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://xingshengji.github.io">
-  <img class="avatar" src="https://xingshengji.github.io/images/avatar.png?v=1564535921695" alt="">
-  </a>
-  <h1 class="site-title">
-    兴盛季节
-  </h1>
-  <p class="site-description">
-    为文艺复兴而生
-  </p>
-  <div class="menu-container">
-    
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://xingshengji.github.io">
+        <img src="https://xingshengji.github.io/images/avatar.png?v=1564536242955" class="site-logo">
+        <h1 class="site-title">兴盛季节</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
       
-        <a href="/" class="menu">
-          首页
-        </a>
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
       
-    
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
       
-        <a href="/archives" class="menu">
-          归档
-        </a>
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
       
-    
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
       
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
+    </div>
   </div>
-  <div class="social-container">
-    
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-        <a href="https://github.com/xingshengji" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
+        
       
-    
+        
       
-    
+        
       
-        <a href="http://weibo.com/xsheing" target="_blank">
-          <i class="fab fa-weibo"></i>
-        </a>
+        
       
-    
+        
       
-    
-      
-    
+    </div>
+    <div class="site-description">
+      为文艺复兴而生
+    </div>
+    <div class="site-footer">
+       <a href="#"_blank">2019.兴盛</a>
+    </div>
   </div>
 </div>
 
-      
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              十二月
-            </h2>
-            <div class="post-info">
-              <time class="post-time">
-                · 2019-06-05 ·
-              </time>
-              
-                <a href="https://xingshengji.github.io/tag/0Wj8FKu3l" class="post-tags">
-                  # 万神殿
-                </a>
-              
-            </div>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">十二月</h2>
+            <div class="post-date">2019-06-05</div>
             
-              <div class="post-feature-image" style="background-image: url('https://images.xiaozhuanlan.com/photo/2018/683d3c420074b06a4528eb92897a339b.png')">
+              <div class="feature-container" style="background-image: url('https://images.xiaozhuanlan.com/photo/2018/683d3c420074b06a4528eb92897a339b.png')">
               </div>
             
             <div class="post-content">
@@ -104,31 +105,53 @@
 <p>整理中</p>
 
             </div>
-          </article>
+            
+              <div class="tag-container">
+                
+                  <a href="https://xingshengji.github.io/tag/0Wj8FKu3l" class="tag">
+                    万神殿
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://xingshengji.github.io/post/ni-yi-sheng-de-qing-dan">
+                  <h3 class="post-title">
+                    你一生的清单
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
         </div>
-    
-        
-          <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://xingshengji.github.io/post/ni-yi-sheng-de-qing-dan">
-              <h3 class="post-title">
-                你一生的清单
-              </h3>
-            </a>
-          </div>  
-        
-
-        
-    
-        <div class="site-footer">
-   <a href="#"_blank">2019.兴盛</a>
-</div>
-
-<script>
-  hljs.initHighlightingOnLoad()
-</script>
-
       </div>
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
   </body>
 </html>
