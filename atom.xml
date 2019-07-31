@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xingshengji.github.io</id>
     <title>兴盛季节</title>
-    <updated>2019-07-31T01:18:16.027Z</updated>
+    <updated>2019-07-31T01:18:51.302Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xingshengji.github.io"/>
     <link rel="self" href="https://xingshengji.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://xingshengji.github.io/images/avatar.png</logo>
     <icon>https://xingshengji.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 兴盛季节</rights>
+    <entry>
+        <title type="html"><![CDATA[测试]]></title>
+        <id>https://xingshengji.github.io/post/ce-shi</id>
+        <link href="https://xingshengji.github.io/post/ce-shi">
+        </link>
+        <updated>2019-07-31T01:18:29.000Z</updated>
+        <content type="html"><![CDATA[<p>这样评论插件就设置好了，在预览时会在文章页显示评论模块，但不会显示具体的评论信息，因为这个是本地预览，而 Github OAuth 设置的域名为线上的域名。待博客同步到线上时就可以显示啦！</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[三张清单]]></title>
         <id>https://xingshengji.github.io/post/hen-duo-xiang-fa</id>
